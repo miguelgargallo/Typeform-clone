@@ -7,28 +7,46 @@ import './static/style';
 // => in the render() method of your app
 const data = [
   {
-    title: 'lets start with your first name? *',
-    id: 'first_name',
-    link: 'last_name',
+    title: 'Vamos comenzar con el nombre del niñ@? *',
+    id: 'nombre__nin',
+    link: 'edad_nin',
     i: 1
   },
   {
-    title: 'and your last name? *',
-    id: 'last_name',
-    link: 'city',
+    title: 'Que edad tiene? *',
+    id: 'edad_nin',
+    link: 'fam_nin',
     i: 2
   },
   {
-    title: 'what city and state are you from? (or put a zipcode) *',
-    id: 'city',
-    link: 'occupation',
+    title: '¿Cómo te llamas?) *',
+    id: 'fam_nin',
+    link: 'correo_nin',
     i: 3
   },
   {
-    title: 'got a job? or are you a student? *',
-    id: 'occupation',
-    link: '',
+    title: 'Nos podrías proporcionar un correo?) *',
+    id: 'correo_nin',
+    link: 'tel_nin',
     i: 4
+  },
+  {
+    title: 'Nos podrías proporcionar un teléfono?) *',
+    id: 'tel_nin',
+    link: 'hobby_nin',
+    i: 5
+  },
+  {
+    title: 'Que hobbies tiene el nin@? *',
+    id: 'hobby_nin',
+    link: 'rgpd_nin',
+    i: 6
+  },
+  {
+    title: 'Escribe "Si" para aceptar la ley de protección de datos, y puedas participar) *',
+    id: 'rgpd_nin',
+    link: '',
+    i: 7
   }
 ]
 
